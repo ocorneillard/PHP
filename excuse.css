@@ -1,0 +1,68 @@
+
+/* __________________________________________________ */
+/*           #BASE                                   */
+/* _________________________________________________ */
+
+body {
+ background-color : #8E8F99;
+ font-family: 'Montserrat', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+ text-align : center ;
+ width : 50%;
+ margin : auto;
+ padding : 50px;
+}
+
+h2 {
+  padding-bottom : 5vh;
+
+}
+
+p {
+  text-align : justify;
+  padding : 40px;
+}
+
+ul {
+ list-style-type: none;
+}
+
+li {
+  padding-left : 10vw;
+  text-align : justify;
+}
+
+/* __________________________________________________ */
+/*           #LAYOUT                                  */
+/* _________________________________________________ */
+
+.header {
+  background-color : white;
+  border-radius : 10px;
+  padding: 3vh;
+  margin-bottom : 10vh;
+}
+
+.absence {
+  background-color : white;
+  border-radius: 10px;
+  padding : 3vh;
+  margin-bottom : 10vh;
+}
+
+.réponse {
+  margin-top : 10vh;
+  background-color : white;
+  border-radius: 10px;
+  padding : 3vh;
+}
+
+.btn {
+  background-color : #979499;
+  padding : 10px;
+  border-radius : 5px;
+  box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+-webkit-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+-moz-box-shadow: 0px 4px 2px 0px rgba(102,102,102,0.29);
+text-decoration : bold;
+}
