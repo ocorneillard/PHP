@@ -51,20 +51,40 @@
     }
 
     $nombre_de_lignes = 1;
+echo "<br />";
 
-while ($nombre_de_lignes <= 100)
-{
-    echo $nombre_de_lignes . ": Je ne dois pas regarder les mouches voler quand j'apprends le PHP.<br />";
-    $nombre_de_lignes++;
-}
-while ($number <= 120)
+while($number <= 120)
 {
   echo $number. " ";
   $number++;
+  if ($number % 10 == 0) {
+    echo "<br />";
+  }
+
 }
 
-for($number)
 
-    ?>
+echo "<br> <br> <br> <br>";
+
+for($number = 1; $number <= 120;$number++) {
+  echo $number." ";
+  if ($number % 12 == 0) {
+    echo "<br />" ;
+  }
+
+}
+
+$classe = ['', 'Arnaud Duchemin', 'Bourloo Michael', 'Bryan Mootosami', 'Canivet Geoffrey', 'Claude Jenssen', 'Sébastien Dacruz Mathias', 'Damien Bernard', 'Daniel Muyshond', 'David Thewissen', 'Félicien Manzi', 'Félix Namêche', 'Frédéric Binon', 'Haulin Daphné', 'Jacques Bernard', 'Jennifer Van Kelst', 'Jérome Greitzer', 'Jordan Flament', 'Kévin Charlier', 'Kévin Dubreuq', 'Ludovic Cecotti', 'Mathieu Leers', 'Mignot Morgan', 'Philippe Hernaux', 'Romain Grotard', 'Sarah Klewiec', 'Steve Van Essche' ] ;
+
+foreach($classe as $index => $n) {
+  echo $n. "<br> " ;
+  if ($index % 3 == 0) {
+    echo "<br>";
+  }
+} ?>
+
+
+
+
   </body>
 </html>
